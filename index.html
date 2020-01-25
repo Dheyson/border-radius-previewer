@@ -14,17 +14,37 @@
         <h1>BORDER RADIUS PREVIEWER</h1>
         <div class="box"></div>
         <form>
-            <label for="">Top</label>
-            <input type="text">
-
-            <label for="">Left</label>
-            <input type="text">
-
-            <label for="">Right</label>
-            <input type="text">
-            <label for="">Bottom</label>
-            <input type="text">
+            <div class="input__format">
+                <div class="div__flex">
+                    <label for="">Top-Left:</label>
+                    <input type="text">
+                </div>
+                <div class="div__flex">
+                    <label for="">Top-Right:</label>
+                    <input type="text">
+                </div>
+                <div class="div__flex">
+                    <label for="">Bottom-Left:</label>
+                    <input type="text">
+                </div>
+                <div class="div__flex">
+                    <label for="">Bottom-Right:</label>
+                    <input type="text">
+                </div>
+            </div>
+            <button disabled="disabled" class="btn__stylish">SUBMETER</button>
         </form>
+        <pre>
+        <code>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 15px;
+                border: 1px solid black;
+            }
+        </code>
+        </pre>
     </div>
     <script src="app.js"></script>
 </body>
