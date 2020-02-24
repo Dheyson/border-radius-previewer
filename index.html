@@ -4,37 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The border-radius property can have multiple values changed.">
+    <meta name="author" content="Dheyson Alves">
+    <meta name="keywords" content="Front-end challenges, javscript, html, css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BORDER RADIUS PREVIEWER</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>BORDER RADIUS PREVIEWER</h1>
-        <div class="box"></div>
+    <div class="container container--padding">
+        <h1 class="container__title">BORDER RADIUS PREVIEWER</h1>
+        <div class="container-content"></div>
         <form>
-            <div class="input__format">
-                <div class="div__flex">
+            <div class="form-content">
+                <div class="form__item form--padding ">
                     <label for="">Top-Left:</label>
                     <input type="text">
                 </div>
-                <div class="div__flex">
+                <div class="form__item form--padding ">
                     <label for="">Top-Right:</label>
                     <input type="text">
                 </div>
-                <div class="div__flex">
+                <div class="form__item form--padding ">
                     <label for="">Bottom-Left:</label>
                     <input type="text">
                 </div>
-                <div class="div__flex">
+                <div class="form__item form--padding ">
                     <label for="">Bottom-Right:</label>
                     <input type="text">
                 </div>
             </div>
-            <button disabled="disabled" class="btn__stylish">SUBMETER</button>
+            <button disabled="disabled"
+                class="button-content button--position button--state--primary button__span">Submit</button>
         </form>
-        <pre>
+        <pre class="pre-content pre--background pre__code">
         <code>
             .container {
                 display: flex;
