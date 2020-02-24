@@ -15,24 +15,30 @@
 <body>
     <div class="container container--padding">
         <h1 class="container__title">BORDER RADIUS PREVIEWER</h1>
+        <p>The border-radius property can have multiple values changed. Preview how the shape looks while changing these
+            values.</p>
         <div class="container-content"></div>
         <form>
             <div class="form-content">
-                <div class="form__item form--padding ">
-                    <label for="">Top-Left:</label>
-                    <input type="text">
+                <div class="form__item">
+                    <div>
+                        <label for="" class="form__label">Top-Left:</label>
+                        <input type="text" id="input--top-left" oninput="onInputChange('input--top-left')">
+                    </div>
+                    <div>
+                        <label for="" class="form__label">Top-Right:</label>
+                        <input type="text" id="input--top-right">
+                    </div>
                 </div>
-                <div class="form__item form--padding ">
-                    <label for="">Top-Right:</label>
-                    <input type="text">
-                </div>
-                <div class="form__item form--padding ">
-                    <label for="">Bottom-Left:</label>
-                    <input type="text">
-                </div>
-                <div class="form__item form--padding ">
-                    <label for="">Bottom-Right:</label>
-                    <input type="text">
+                <div class="form__item ">
+                    <div>
+                        <label for="" class="form__label">Bottom-Left:</label>
+                        <input type="text" id="input--bottom-left">
+                    </div>
+                    <div>
+                        <label for="" class="form__label">Bottom-Right:</label>
+                        <input type="text" id="input--bottom-right">
+                    </div>
                 </div>
             </div>
             <button disabled="disabled"
