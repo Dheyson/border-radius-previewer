@@ -17,32 +17,32 @@
         <h1 class="container__title">BORDER RADIUS PREVIEWER</h1>
         <p>The border-radius property can have multiple values changed. Preview how the shape looks while changing these
             values.</p>
-        <div class="container--position"></div>
+        <div class="container--position" id="container-field"></div>
         <form>
             <div class="form-content">
                 <div class="form__item">
                     <div>
                         <label for="" class="form__label">Top-Left:</label>
-                        <input type="text" id="input--top-left" oninput="onInputChange('input--top-left')">
+                        <input type="text" id="input--top-left" oninput="onInputChange('input--top-left')" on>
                     </div>
                     <div>
                         <label for="" class="form__label">Top-Right:</label>
-                        <input type="text" id="input--top-right">
+                        <input type="text" id="input--top-right" oninput="onInputChange('input--top-right')">
                     </div>
                 </div>
                 <div class="form__item ">
                     <div>
                         <label for="" class="form__label">Bottom-Left:</label>
-                        <input type="text" id="input--bottom-left">
+                        <input type="text" id="input--bottom-left" oninput="onInputChange('input--bottom-left')">
                     </div>
                     <div>
                         <label for="" class="form__label">Bottom-Right:</label>
-                        <input type="text" id="input--bottom-right">
+                        <input type="text" id="input--bottom-right" oninput="onInputChange('input--bottom-right')">
                     </div>
                 </div>
             </div>
-            <button disabled="disabled"
-                class="button-content button--position button--state--primary button__span">Submit</button>
+            <button disabled="disabled" class="button-content button--position button--state--primary button__span"
+                onsubmit="">Submit</button>
         </form>
         <pre class="pre-content pre--background pre__code">
         <code>
