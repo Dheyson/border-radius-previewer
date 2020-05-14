@@ -6,6 +6,10 @@ const getRadiusProperties = function() {
   target.style.borderBottomRightRadius = bottomRight;
 };
 
+function setStyle(element, target, value) {
+  return element.style.target = value;
+}
+
 const insertIntoCodePreview = function(params) {};
 
 const onInputChange = function(target) {
